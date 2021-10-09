@@ -60,7 +60,7 @@ class _calculatorState extends State<calculator> {
                         style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Colors.amberAccent),
+                            color: Colors.black26),
                       ),
                     ),
                     Container(
@@ -70,7 +70,7 @@ class _calculatorState extends State<calculator> {
                         answer,
                         style: TextStyle(
                             fontSize: 30,
-                            color: Colors.white,
+                            color: Colors.black26,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -95,14 +95,14 @@ class _calculatorState extends State<calculator> {
                         });
                       },
                       buttonText: buttons[index],
-                      color: Colors.blue,
+                      color: Colors.black26,
                       textcolor: Colors.black38,
                     );
                   } else if (index == 1) {
                     return MyButton(
                       buttonText: buttons[index],
-                      color: Colors.blue[50],
-                      textcolor: Colors.black,
+                      color: Colors.black26,
+                      textcolor: Colors.white24,
                     );
                   } else if (index == 2) {
                     return MyButton(
@@ -112,8 +112,8 @@ class _calculatorState extends State<calculator> {
                         });
                       },
                       buttonText: buttons[index],
-                      color: Colors.blue,
-                      textcolor: Colors.black,
+                      color: Colors.black26,
+                      textcolor: Colors.white24,
                     );
                   } else if (index == 3) {
                     return MyButton(
@@ -124,8 +124,8 @@ class _calculatorState extends State<calculator> {
                         });
                       },
                       buttonText: buttons[index],
-                      color: Colors.blue,
-                      textcolor: Colors.black,
+                      color: Colors.black26,
+                      textcolor: Colors.white24,
                     );
                   } else if (index == 18) {
                     return MyButton(
@@ -135,7 +135,7 @@ class _calculatorState extends State<calculator> {
                         });
                       },
                       buttonText: buttons[index],
-                      color: Colors.orange,
+                      color: Colors.black26,
                       textcolor: Colors.white,
                     );
                   } else {
@@ -147,7 +147,7 @@ class _calculatorState extends State<calculator> {
                       },
                       buttonText: buttons[index],
                       color: isOperator(buttons[index])
-                          ? Colors.blueAccent
+                          ? Colors.black26
                           : Colors.white,
                       textcolor: isOperator(buttons[index])
                           ? Colors.white
